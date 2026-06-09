@@ -14,12 +14,9 @@
     "vue-router": "^5.1.0"
   },
   "devDependencies": {
-    "@unocss/preset-attributify": "^66.7.0",
-    "@unocss/preset-icons": "^66.7.0",
-    "@unocss/preset-uno": "^66.7.0",
-    "@unocss/preset-wind": "^66.7.0",
     "@vitejs/plugin-vue": "^6.0.6",
-    "unocss": "^66.7.0",
-    "vite": "^8.0.12"
+    "vite": "^8.0.12",
+    "vite-plugin-windicss": "^1.9.4",
+    "windicss": "^3.5.6"
   }
 }
