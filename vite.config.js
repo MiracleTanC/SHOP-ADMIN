@@ -1,6 +1,6 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
-import UnoCSS from 'unocss/vite'
+import WindiCSS from 'vite-plugin-windicss'
 import path from 'path'
 
 
@@ -13,6 +13,6 @@ export default defineConfig({
   },
   plugins: [
     vue(),
-    UnoCSS()
+    WindiCSS()
   ]
 })
